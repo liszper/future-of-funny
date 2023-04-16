@@ -1,0 +1,14 @@
+
+{:source-paths ["src"]
+ :dependencies [[cider/cider-nrepl "0.21.1"]]
+ :builds {:backend {:target :node-script
+                    :compiler-options {:infer-externs :auto
+                                       :pretty-print true}
+                    :output-to "resources/backend/core.js"
+                    :main backend.server/start!}
+          :frontend {:target :browser
+                     :output-dir "resources/frontend/js"
+                     :compiler-options {:output-feature-set :es-next
+                                        :infer-externs :auto
+                                        :pretty-print true}
+                     :modules {:core {:init-fn frontend.core/start!}}}}}

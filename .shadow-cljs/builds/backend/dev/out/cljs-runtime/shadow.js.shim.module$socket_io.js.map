@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$socket_io.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,iCAAb,CAAA;AACAD,IAAKC,CAAAA,OAAL,CAAa,wCAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,gBAAf,GAAkCC,OAAA,CAAQ,WAAR,CAAlC;AACAC,sCAAuCC,CAAAA,OAAvC,GAAiDN,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,gBAAhE;;",
+"sources":["shadow.js.shim.module$socket_io.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$socket_io\");\ngoog.provide(\"module$shadow_js_shim_module$socket_io\");\nshadow.js.shim.module$socket_io = require(\"socket.io\");\nmodule$shadow_js_shim_module$socket_io.default = shadow.js.shim.module$socket_io;\n"],
+"names":["goog","provide","shadow","js","shim","module$socket_io","require","module$shadow_js_shim_module$socket_io","default"]
+}

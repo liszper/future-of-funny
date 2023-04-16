@@ -1,0 +1,1 @@
+{"version":3,"sources":["config.cljs"],"mappings":";AAGA,cAAA,dAAKA;AAEL,iBAAA,jBAAKC","names":["config/port","config/version"],"sourcesContent":["(ns config)\n\n\n(def port 3000)\n\n(def version \"0.2\")"]}

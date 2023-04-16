@@ -1,0 +1,35 @@
+{
+  "name": "social-middleware",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "raz",
+  "license": "MIT",
+  "devDependencies": {
+    "isomorphic-ws": "^4.0.1",
+    "jsdom": "^16.0.1",
+    "jsdom-global": "^3.0.2",
+    "shadow-cljs": "^2.10.12",
+    "source-map-support": "^0.5.19",
+    "ws": "^7.5.9"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "express": "^4.18.2",
+    "framer-motion": "^6.5.1",
+    "http": "^0.0.1-security",
+    "input": "^1.0.1",
+    "isomorphic-ws": "^5.0.0",
+    "moment": "^2.29.4",
+    "node-telegram-bot-api": "^0.61.0",
+    "pikola": "^0.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4",
+    "stability-client": "^1.8.0",
+    "telegram": "^2.15.5"
+  }
+}

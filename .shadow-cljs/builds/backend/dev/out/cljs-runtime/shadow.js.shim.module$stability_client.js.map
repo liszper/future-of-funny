@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$stability_client.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,wCAAb,CAAA;AACAD,IAAKC,CAAAA,OAAL,CAAa,+CAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,uBAAf,GAAyCC,OAAA,CAAQ,kBAAR,CAAzC;AACAC,6CAA8CC,CAAAA,OAA9C,GAAwDN,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,uBAAvE;;",
+"sources":["shadow.js.shim.module$stability_client.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$stability_client\");\ngoog.provide(\"module$shadow_js_shim_module$stability_client\");\nshadow.js.shim.module$stability_client = require(\"stability-client\");\nmodule$shadow_js_shim_module$stability_client.default = shadow.js.shim.module$stability_client;\n"],
+"names":["goog","provide","shadow","js","shim","module$stability_client","require","module$shadow_js_shim_module$stability_client","default"]
+}

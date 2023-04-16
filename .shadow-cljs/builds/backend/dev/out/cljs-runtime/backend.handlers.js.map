@@ -1,0 +1,1 @@
+{"version":3,"sources":["backend/handlers.cljs"],"mappings":";AAIA,yBAAA,zBAAMA,0DAAOC,IAAIC;AAAjB,AACE,OAAOA,SAAI,AAACC,yBAAiB,AAAQF","names":["backend.handlers/index","req","res","backend.html/render-page"],"sourcesContent":["(ns backend.handlers\n  (:require [backend.html :as html]))\n  \n\n(defn index [req res]\n  (.send res (html/render-page (.-path req))))"]}
